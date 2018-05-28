@@ -11,7 +11,9 @@ package AbastractFactory.Aritmetica;
  */
 public class Division implements Aritmetica{
     @Override
-    public float resultado(float n1,float n2){
-        return n1/n2;
+    public String resultado(float n1,float n2){
+        float n3=n1/n2;
+        String strAmount=String.valueOf(n3);
+        return strAmount;
     }
 }

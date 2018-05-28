@@ -10,5 +10,5 @@ package AbastractFactory.Aritmetica;
  * @author LN710Q
  */
 public interface Aritmetica {
-    float resultado(float n1, float n2);
+    String resultado(float n1, float n2);
 }

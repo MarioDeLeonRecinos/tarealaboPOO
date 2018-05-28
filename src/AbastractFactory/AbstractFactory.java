@@ -12,6 +12,6 @@ import AbastractFactory.Convertor.Convertor;
  * @author LN710Q
  */
 public interface AbstractFactory {
-    Aritmetica getShape(int n1, int n2);
-    Convertor getColor(int n1);
+    Aritmetica getOperacionA(String operacion);
+    Convertor resultado();
 }
